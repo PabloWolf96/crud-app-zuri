@@ -1,3 +1,7 @@
+# hosted link
+
+https://crud-app-zuri.herokuapp.com/users
+
 # Routes
 
 get '/' => redirects to '/users'
