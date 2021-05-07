@@ -29,6 +29,9 @@ const userSchema = new Schema({
 });
 
 const user = mongoose.model("name", userSchema);
+app.get("/", (req, res) => {
+  res.redirect("/users");
+});
 app.post("/user", (req, res) => {
   user
     .create({

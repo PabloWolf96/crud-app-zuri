@@ -1,5 +1,6 @@
 # Routes
 
+get '/' => redirects to '/users'
 get '/users' => When there is no error, this route returns a json object with properties message and data. Message is the string "success" and data is an object containing all the users in the database. When there is an error it returns a json object with message. The message contains the error.
 
 post '/user' => The body of this route should contain information about the user that you want to add. When there is no error, this route creates a new user and returns a json object with properties message and data. The message is the string "new user created successfully" and the data is an object containing all the information about the user that was just created. When there is an error it returns a json object with the property message. The message contains the error.
