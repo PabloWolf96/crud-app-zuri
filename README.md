@@ -1,6 +1,6 @@
 # hosted link
 
-https://crud-app-zuri.herokuapp.com/users
+https://crud-app-zuri.herokuapp.com
 
 # Routes
 
