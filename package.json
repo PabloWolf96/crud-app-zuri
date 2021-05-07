@@ -1,0 +1,20 @@
+{
+  "name": "crud-app-with-database",
+  "version": "1.0.0",
+  "description": "A crud express app with a mongodb database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "Ikhena Owen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
